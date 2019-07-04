@@ -1,0 +1,31 @@
+{
+  "name": "nomad",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "nodemailer": "^6.2.1",
+    "pg": "^7.11.0",
+    "pg-hstore": "^2.3.2",
+    "postgresql": "^0.0.1",
+    "sequelize": "^5.8.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/superpike/nomad-task.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/superpike/nomad-task/server#readme"
+}
